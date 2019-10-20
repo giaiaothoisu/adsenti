@@ -823,11 +823,14 @@ function FindProxyForURL(url, host)
     || dnsDomainIs(host, ".googleadservices.com")
     || dnsDomainIs(host, ".googleusercontent.com")
     || dnsDomainIs(host, ".l.google.com")
+    || dnsDomainIs(host, "clients6.google.com")
+    || dnsDomainIs(host, "www.youtube-nocookie.com")
     
 
 
     
-
+    || shExpMatch(host, "r*.sn-*.googlevideo*")
+    || shExpMatch(host, "r*---sn-*.googlevideo.com")
     || shExpMatch(host, "*mal.googlevideo.com/*")
     || shExpMatch(host, "*nbosk.googlevideo.com/*")
     || shExpMatch(host, "*q5qd.googlevideo.com/*")
