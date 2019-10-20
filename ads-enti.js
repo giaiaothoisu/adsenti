@@ -829,8 +829,11 @@ function FindProxyForURL(url, host)
 	|| dnsDomainIs(host, ".googleadservices.com")
 	|| dnsDomainIs(host, ".google-analytics.com")
 	|| dnsDomainIs(host, ".l.google.com")
-	|| dnsDomainIs(host, ".googleusercontent.com")
-
+    || dnsDomainIs(host, ".googleusercontent.com")
+    
+    || (shExpMatch(host, "*nbosk.googlevideo.com"))
+    || (shExpMatch(host, "*q5qd.googlevideo.com"))
+    || (shExpMatch(host, "*a5msen7l.googlevideo.com"))
 
 	// internetfuel and _some_ of the sites they redirect to
 	// (more internetfuel - from Sam G)
