@@ -824,6 +824,10 @@ function FindProxyForURL(url, host)
     || dnsDomainIs(host, ".l.google.com")
     || dnsDomainIs(host, "clients6.google.com")
     || dnsDomainIs(host, "www.youtube-nocookie.com")
+    || dnsDomainIs(host, "uniad.vn")
+    || dnsDomainIs(host, "pmcontent.com")
+
+
     
 
 
