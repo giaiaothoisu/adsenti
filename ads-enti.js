@@ -829,8 +829,8 @@ function FindProxyForURL(url, host)
 
 
     
-    || shExpMatch(host, "r*.sn-*.googlevideo*")
-    || shExpMatch(host, "r*---sn-*.googlevideo.com")
+    //|| shExpMatch(host, "r*.sn-*.googlevideo*")
+    //|| shExpMatch(host, "r*---sn-*.googlevideo.com")
     || shExpMatch(host, "*mal.googlevideo.com/*")
     || shExpMatch(host, "*nbosk.googlevideo.com/*")
     || shExpMatch(host, "*q5qd.googlevideo.com/*")
