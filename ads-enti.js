@@ -811,7 +811,11 @@ function FindProxyForURL(url, host)
 	// Ads Youtube
 	|| dnsDomainIs(host, "r1---sn-8qj-nbosk.googlevideo.com")
 	|| dnsDomainIs(host, "r2---sn-8qj-nbosk.googlevideo.com")
+	|| dnsDomainIs(host, "r1---sn-8qj-nbosy.googlevideo.com")
+	|| dnsDomainIs(host, "r2---sn-8qj-nbosy.googlevideo.com")
 	|| dnsDomainIs(host, "r1---sn-a5msen7l.googlevideo.com")
+	|| dnsDomainIs(host, "r3---sn-8qj-q5qd.googlevideo.com")
+	|| dnsDomainIs(host, "r4---sn-8qj-nbosk.googlevideo.com")
 	|| dnsDomainIs(host, "googleads.g.doubleclick.net")
 	
 	//Ads Google
