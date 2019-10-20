@@ -808,8 +808,17 @@ function FindProxyForURL(url, host)
 	|| dnsDomainIs(host, ".treeloot.com")
 	|| dnsDomainIs(host, ".memberprize.com")
 
-	// Ads google
+	// Ads Youtube
+	|| dnsDomainIs(host, "r1---sn-8qj-nbosk.googlevideo.com")
+	|| dnsDomainIs(host, "r2---sn-8qj-nbosk.googlevideo.com")
+	|| dnsDomainIs(host, "r1---sn-a5msen7l.googlevideo.com")
+	|| dnsDomainIs(host, "googleads.g.doubleclick.net")
+	
+	//Ads Google
 	|| dnsDomainIs(host, "fls.doubleclick.net")
+	|| dnsDomainIs(host, "googleads.g.doubleclick.net")
+	|| dnsDomainIs(host, "securepubads.g.doubleclick.net")
+	|| dnsDomainIs(host, "static.doubleclick.net")
 	|| dnsDomainIs(host, "undefined.fls.doubleclick.net")
 	|| dnsDomainIs(host, "adservice.google.com")
 	|| dnsDomainIs(host, "adservice.google.com.vn")
