@@ -733,7 +733,11 @@ function FindProxyForURL(url, host)
 	|| shExpMatch(url, "*ads.youtube.com*")
 	|| shExpMatch(url, "*ad.youtube.com*")
     || shExpMatch(url, "*mal.googlevideo.com*")
-    
+	
+	|| shExpMatch(host, "ads.youtube.com")
+	|| shExpMatch(host, "ad.youtube.com")
+    || shExpMatch(host, "*.doubleclick.net")
+	|| dnsDomainIs(host, "gstatic.com")
 	
 || shExpMatch(url, "*[0-9].googlevideo.com*")	
 || shExpMatch(url, "*apn7en7l.googlevideo.com*")
