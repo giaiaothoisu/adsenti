@@ -730,7 +730,6 @@ function FindProxyForURL(url, host)
     || dnsDomainIs(host, "l.google.com")
     || dnsDomainIs(host, "clients6.google.com")
 	|| dnsDomainIs(host, "www.youtube-nocookie.com")
-	
 	|| shExpMatch(url, "*ads.youtube.com*")
 	|| shExpMatch(url, "*ad.youtube.com*")
     || shExpMatch(url, "*mal.googlevideo.com*")
