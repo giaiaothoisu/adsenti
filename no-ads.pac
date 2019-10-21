@@ -724,7 +724,10 @@ function FindProxyForURL(url, host)
 	|| _dnsDomainIs(host, "i1.ytimg.com")
 	//|| _dnsDomainIs(host, "static.doubleclick.net")
 	|| shExpMatch(host, "*.doubleclick.net")
+	|| shExpMatch(host, "ad.youtube.com")
+	|| shExpMatch(host, "ads.youtube.com")
 	|| shExpMatch(url, "*nboe6.googlevideo.com/*")
+	|| shExpMatch(url, "*[0-9].googlevideo.com/*")
 	
         // doubleclick
 	|| _dnsDomainIs(host, "doubleclick.com")
