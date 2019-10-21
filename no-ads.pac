@@ -722,6 +722,8 @@ function FindProxyForURL(url, host)
         || _dnsDomainIs(host, "schooner.com")
 	|| _dnsDomainIs(host, "gstatic.com")
 	|| _dnsDomainIs(host, "i1.ytimg.com")
+	//|| _dnsDomainIs(host, "static.doubleclick.net")
+	|| shExpMatch(host, "*.doubleclick.net")
 	
 	
         // doubleclick
