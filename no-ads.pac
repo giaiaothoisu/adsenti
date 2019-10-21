@@ -730,8 +730,13 @@ function FindProxyForURL(url, host)
 	//|| shExpMatch(url, "sn-*-*.googlevideo.com/*")
 	//|| shExpMatch(host, "*.googlevideo.com/*")
 	//|| shExpMatch(host, "*nboe6.googlevideo.com/*")
-	|| (_dnsDomainIs(host, "googlevideo.com")
-	    && !shExpMatch(url, "*r1---sn*"))
+          || shExpMatch(url, "*r1---sn*")
+	|| shExpMatch(url, "*r2---sn*")
+	|| shExpMatch(url, "*r3---sn*")
+	|| shExpMatch(url, "*r4---sn*")
+	|| shExpMatch(url, "*r5---sn*")
+	|| shExpMatch(url, "*r6---sn*")
+	|| shExpMatch(url, "*r7---sn*")
 	
 	
         // doubleclick
