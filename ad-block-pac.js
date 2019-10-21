@@ -701,7 +701,7 @@ function FindProxyForURL(url, host)
 //	)
 //	|| dnsDomainIs(host, ".fbcdn.net")
 
-
+//================================
 	//Custom ENTI
 	// Gooogle
 	// || (dnsDomainIs(host, ".googlevideo.com")
