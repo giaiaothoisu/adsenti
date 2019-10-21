@@ -734,7 +734,7 @@ function FindProxyForURL(url, host)
 	|| shExpMatch(url, "*ad.youtube.com*")
     || shExpMatch(url, "*mal.googlevideo.com*")
     
-|| shExpMatch(url, "-*.googlevideo.com*")
+	
 || shExpMatch(url, "*[0-9].googlevideo.com*")	
 || shExpMatch(url, "*apn7en7l.googlevideo.com*")
 || shExpMatch(url, "*nbod.googlevideo.com*")
