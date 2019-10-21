@@ -624,7 +624,7 @@ function FindProxyForURL(url, host)
     if (0
 	//WHITELIST-RULES
     	// To add whitelist domains, simple add a line such as:
-	|| dnsDomainIs(host, "schooner.com")
+	// || dnsDomainIs(host, "schooner.com")
 	// or for a single host
 	//	|| (host == "some-host-name")
 
@@ -669,7 +669,7 @@ function FindProxyForURL(url, host)
     // Remove the "//DEBUG2" to enable debug messages
     if (0
 	//BLOCK-RULES
-	//DEBUG2 || alert("start")
+	DEBUG2 || alert("start")
 
 	// Block IE "favicon.ico" fetches
 	// (to avoid being tracked as having bookmarked the site)
@@ -717,6 +717,8 @@ function FindProxyForURL(url, host)
 //	    )
 //	)
 //	|| _dnsDomainIs(host, "fbcdn.net")
+	
+	|| _dnsDomainIs(host, "schooner.com")
 
         // doubleclick
 	|| _dnsDomainIs(host, "doubleclick.com")
