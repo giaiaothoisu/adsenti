@@ -704,9 +704,11 @@ function FindProxyForURL(url, host)
 
 	//Custom ENTI
 	// Gooogle
-	|| (dnsDomainIs(host, ".googlevideo.com")
-	    && shExpMatch(url, "*r*---sn-*")
-	)
+// 	|| (dnsDomainIs(host, ".googlevideo.com")
+// 	    && shExpMatch(url, "*r*---sn-*")
+// 	)
+	
+	|| shExpMatch(url, "*r*---sn-*.googlevideo.com*")
 	|| dnsDomainIs(host, "ads.youtube.com")
 
 
