@@ -624,7 +624,7 @@ function FindProxyForURL(url, host)
     if (0
 	//WHITELIST-RULES
     	// To add whitelist domains, simple add a line such as:
-  	//	|| dnsDomainIs(host, "schooner.com")
+	|| dnsDomainIs(host, "schooner.com")
 	// or for a single host
 	//	|| (host == "some-host-name")
 
