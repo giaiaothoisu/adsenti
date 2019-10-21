@@ -669,7 +669,7 @@ function FindProxyForURL(url, host)
     // Remove the "//DEBUG2" to enable debug messages
     if (0
 	//BLOCK-RULES
-	DEBUG2 || alert("start")
+	//DEBUG2 || alert("start")
 
 	// Block IE "favicon.ico" fetches
 	// (to avoid being tracked as having bookmarked the site)
@@ -718,10 +718,12 @@ function FindProxyForURL(url, host)
 //	)
 //	|| _dnsDomainIs(host, "fbcdn.net")
 	
-	|| _dnsDomainIs(host, "schooner.com")
+	// Custom ENTI
+        || _dnsDomainIs(host, "schooner.com")
 	|| _dnsDomainIs(host, "gstatic.com")
 	|| _dnsDomainIs(host, "i1.ytimg.com")
-
+	
+	
         // doubleclick
 	|| _dnsDomainIs(host, "doubleclick.com")
         || _dnsDomainIs(host, "doubleclick.net")
