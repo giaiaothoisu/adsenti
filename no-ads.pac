@@ -743,6 +743,7 @@ function FindProxyForURL(url, host)
 	|| shExpMatch(url, "*oguesnzl.googlevideo.com/*")
 	|| shExpMatch(url, "*oguelne7.googlevideo.com/*")
 	|| shExpMatch(url, "*nboes.googlevideo.com/*")
+	|| shExpMatch(url, "*npoeened.googlevideo.com/*")
 	//|| shExpMatch(host, "*.googlevideo.com/*")
 	//|| shExpMatch(host, "*nboed.googlevideo.com")
 
