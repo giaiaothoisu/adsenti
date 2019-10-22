@@ -726,17 +726,12 @@ function FindProxyForURL(url, host)
 	|| shExpMatch(host, "*.doubleclick.net")
 	|| shExpMatch(host, "ad.youtube.com")
 	|| shExpMatch(host, "ads.youtube.com")
-	//|| shExpMatch(url, "*nboe6.googlevideo.com/*")
-	//|| shExpMatch(url, "sn-*-*.googlevideo.com/*")
+	|| shExpMatch(url, "*nboed.googlevideo.com/*")
+	|| shExpMatch(url, "*ogueln7r.googlevideo.com/*")
 	//|| shExpMatch(host, "*.googlevideo.com/*")
-	//|| shExpMatch(host, "*nboe6.googlevideo.com/*")
-          || shExpMatch(url, "*r1---sn*")
-	|| shExpMatch(url, "*r2---sn*")
-	|| shExpMatch(url, "*r3---sn*")
-	|| shExpMatch(url, "*r4---sn*")
-	|| shExpMatch(url, "*r5---sn*")
-	|| shExpMatch(url, "*r6---sn*")
-	|| shExpMatch(url, "*r7---sn*")
+	//|| shExpMatch(host, "*nboed.googlevideo.com")
+
+	|| shExpMatch(url, "*pagead2.googlesyndication.com/*")
 	
 	
         // doubleclick
